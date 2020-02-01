@@ -1,6 +1,6 @@
 {
   "name": "@geoffcodesthings/nyan",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A tool that unifies NPM and Yarn",
   "main": "src/index.js",
   "bin": {
