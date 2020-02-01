@@ -1,5 +1,5 @@
 {
-  "name": "nyan",
+  "name": "@geoffcodesthings/nyan",
   "version": "1.0.0",
   "description": "A tool that unifies NPM and Yarn",
   "main": "src/index.js",

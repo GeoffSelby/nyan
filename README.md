@@ -8,10 +8,10 @@
 
 ```sh
 # Using npm
-npm intsall -g nyan
+npm intsall -g @geoffcodesthings/nyan
 
 # Using yarn
-yarn global add nyan
+yarn global add @geoffcodesthings/nyan
 ```
 
 ### Configuration
