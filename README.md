@@ -18,6 +18,8 @@ yarn global add @geoffcodesthings/nyan
 
 There is only one configuration option, `preferredManager`. By default, it is set to `yarn`.
 
+> This option is used when no package-lock.json or yarn.lock is found. This means you can use `nyan` to initialize a project.
+
 To change this, run:
 
 ```sh
@@ -58,6 +60,10 @@ nyan publish
 nyan upgrade
 nyan upgrade --latest
 
+# Initialize a project
+nyan init
+nyan init -y
+
 # View the installed version of nyan
 nyan -v
 nyan --version
@@ -92,6 +98,10 @@ nyan publish
 
 # Upgrade dependencies
 nyan update
+
+# Initialize a project
+nyan init
+nyan init -y
 
 # View the installed version of nyan
 nyan -v
